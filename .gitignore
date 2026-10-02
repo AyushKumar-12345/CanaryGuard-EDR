@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.fim_key
+baseline.json
+logs/
+reports/
+test_watch/

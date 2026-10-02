@@ -1,0 +1,24 @@
+{
+  "watch_directories": [
+    "./test_watch"
+  ],
+  "baseline_file": "baseline.json",
+  "log_file": "logs/fim.log",
+  "audit_json_file": "logs/audit_events.json",
+  "report_file": "reports/report.json",
+  "hmac_secret_file": ".fim_key",
+  "canary_filename": ".canary_token.dat",
+  "canary_directories": [
+    "./test_watch/canary"
+  ],
+  "webhook_url": "",
+  "entropy_threshold": 7.2,
+  "rapid_mod_threshold_count": 5,
+  "rapid_mod_window_seconds": 3,
+  "excluded_extensions": [
+    ".tmp",
+    ".log",
+    ".swp",
+    ".git"
+  ]
+}
